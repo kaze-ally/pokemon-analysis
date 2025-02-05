@@ -33,4 +33,5 @@ POST /type/ - Returns the type distribution of Pokemon.
 
 ## 📂 Dataset  
 The dataset contains Pokémon species and their base stats, including HP, Attack, Defense, Speed, etc. 
-
+### link for dataset:
+https://www.kaggle.com/datasets/abcsds/pokemon?resource=download
