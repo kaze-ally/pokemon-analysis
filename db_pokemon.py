@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt 
 import pandas as pd
 import seaborn as sns
-pokemon_df=pd.read_csv("F:\\python\\matplotlib\\Pokemon.csv")
+pokemon_df=pd.read_csv("Pokemon.csv")
 pokemon_df["Sp_Atk"]=pokemon_df["Sp. Atk"]
 pokemon_df["Sp_Def"]=pokemon_df["Sp. Def"]
 pokemon_df["Type 2"]= pokemon_df['Type 2'].apply(lambda x: "None" if pd.isna(x) else x)
