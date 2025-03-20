@@ -6,7 +6,7 @@ from gen import gen_tab
 from type import type_tab
 from stats import stat_tab
 API_URL="http://127.0.0.1:8000"
-st.title("Pokemon Analysis Syatem")
+st.title("Pokemon Analysis System")
 tab1,tab2,tab3,tab4,tab5=st.tabs(["find_pokemon","top_10","stats","type","generation"])
 with tab1:
     find_pokemon_tab()
